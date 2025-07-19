@@ -4,17 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nice AI</title>
+
 </head>
 
 <body>
+
+    <link rel="stylesheet" href="./style.css">
     <h1>Welcome to Nice AI!</h1>
-    <p>Upload an image to see what it is!</p>
-    <input id="image-input" type="file" />
-    <p id="answer"></p>
+    <div>
+        <h3>Chat with a local Ai!</h3>
+        <div id="chat"></div>
+        <input type="text" id="chat-input" />
+    </div>
+    <div>
+        <h3>Upload an image to see what it is!</h3>
+        <input id="image-input" type="file" />
+        <p id="answer"></p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js"></script>
+    <script src="./index.js"></script>
 </body>
-
-
-<script src="./index.js"></script>
 
 </html>
