@@ -1,0 +1,17 @@
+{
+  "name": "local-ai",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "npx bun ./backend/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "latest"
+
+  },
+  "dependencies": {
+    "ollama": "^0.5.16"
+  }
+}
